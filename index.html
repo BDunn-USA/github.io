@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brody Dunn</title>
+
+  <style>
+    :root {
+      --blue: #355f7d;
+      --light-blue: #eef2f5;
+      --text: #1f1f1f;
+      --muted: #5f5f5f;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f7f7f7;
+      color: var(--text);
+    }
+
+    .page {
+      max-width: 760px;
+      margin: 40px auto;
+      background: white;
+      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+    }
+
+    header {
+      background: var(--blue);
+      color: white;
+      text-align: center;
+      padding: 36px 20px 30px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    header p {
+      margin: 8px 0 0;
+      font-style: italic;
+      opacity: 0.95;
+    }
+
+    main {
+      padding: 34px 40px 40px;
+      text-align: center;
+    }
+
+    .intro {
+      color: var(--muted);
+      line-height: 1.5;
+      margin-bottom: 28px;
+    }
+
+    .resume-button {
+      display: inline-block;
+      background: var(--blue);
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 14px 24px;
+      border-radius: 6px;
+      margin-bottom: 30px;
+    }
+
+    .resume-button:hover {
+      opacity: 0.9;
+    }
+
+    .section-title {
+      background: var(--light-blue);
+      color: var(--blue);
+      font-weight: bold;
+      padding: 7px;
+      margin: 10px 0 18px;
+      letter-spacing: 0.05em;
+    }
+
+    .links {
+      display: flex;
+      justify-content: center;
+      gap: 18px;
+      flex-wrap: wrap;
+    }
+
+    .links a {
+      color: var(--blue);
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      color: #777;
+      font-size: 0.85rem;
+      padding: 0 20px 28px;
+    }
+
+    @media (max-width: 600px) {
+      .page {
+        margin: 0;
+        min-height: 100vh;
+        box-shadow: none;
+      }
+
+      main {
+        padding: 28px 22px 36px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page">
+
+    <header>
+      <h1>Brody Dunn</h1>
+      <p>B.S. Computer Science | Army Veteran</p>
+    </header>
+
+    <main>
+      <p class="intro">
+        Computer Science student focused on software development,
+        systems, and technical problem solving.
+      </p>
+
+      <a class="resume-button"
+         href="Brody_Dunn_Resume.pdf"
+         target="_blank">
+        View / Download Resume
+      </a>
+
+      <div class="section-title">LINKS</div>
+
+      <div class="links">
+        <a href="https://github.com/BDunn-USA" target="_blank">
+          GitHub
+        </a>
+
+        <a href="https://www.linkedin.com/in/brody-dunn-cs/" target="_blank">
+          LinkedIn
+        </a>
+      </div>
+    </main>
+
+    <footer>
+      Mobile, Alabama
+    </footer>
+
+  </div>
+</body>
+</html>
